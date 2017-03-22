@@ -5,9 +5,9 @@ Two datasets are included in this exercise:
 ( Harder ) Amazon - Reviews and track data from Amazon music sales site
 
 ==== LastFM ===
+Source: https://snap.stanford.edu/data/amazon-meta.html
+    J. Leskovec, L. Adamic and B. Adamic. The Dynamics of Viral Marketing. ACM Transactions on the Web (ACM TWEB), 1(1), 2007.
 (Easy)  File: LastFM - Users Only
-Source: http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html
-    O. Celma Music Recommendation and Discovery in the Long Tail Springer 2010
 Description: list of all users of the website
 Fields: 
 	User Id - unique identifier. Think of it as a name
@@ -18,7 +18,7 @@ Fields:
 	Account age - Year range since account creation date
 	User age range - span of years for user’s age
 
-(Medium) File: LastFM - Play Counts for select users
+(Medium) File: LastFM - Users and Play Counts
 Description: How many times a given user played a given artist. Only ~10,000 users are included
 	Note that users are listed multiple times in the file.
 	The CountD([Users]) function in Tableau will give the number of users.
@@ -29,16 +29,16 @@ Fields:
 	Plays - How many times a user played this artist
 	Genre - What type of music this is (e.g. pop, hip-hop, etc)
 	
-==== CDs ===
-(Medium-Hard) File: Amazon_Products
+==== Amazon ===
 Source: https://snap.stanford.edu/data/amazon-meta.html
     J. Leskovec, L. Adamic and B. Adamic. The Dynamics of Viral Marketing. ACM Transactions on the Web (ACM TWEB), 1(1), 2007.
+(Medium-Hard) File: Amazon_Products
 Description: the average review and review rating for the music, and the genre's and sub-genres it belongs to
 Fields:
 	ASIN - unique identifier for the product
 	TITLE - name of the music
 	GROUP - reads "music". This dataset originally included books, movies, etc.
-	SALES_RANK - how wsll this sells compared to similar products
+	SALES_RANK - how well this sells compared to similar products
 	TIMES_REVIEWED - how many reviews exist for this product
 	TIMES_DOWNLOADED - how many users have downloaded this product
 	AVERAGE_RATING - 0-5, the average of reviews in the reviews file
