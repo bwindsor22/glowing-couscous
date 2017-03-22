@@ -6,6 +6,8 @@ Two datasets are included in this exercise:
 
 ==== LastFM ===
 (Easy)  File: LastFM - Users Only
+Source: http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html
+    O. Celma Music Recommendation and Discovery in the Long Tail Springer 2010
 Description: list of all users of the website
 Fields: 
 	User Id - unique identifier. Think of it as a name
@@ -29,6 +31,8 @@ Fields:
 	
 ==== CDs ===
 (Medium-Hard) File: Amazon_Products
+Source: https://snap.stanford.edu/data/amazon-meta.html
+    J. Leskovec, L. Adamic and B. Adamic. The Dynamics of Viral Marketing. ACM Transactions on the Web (ACM TWEB), 1(1), 2007.
 Description: the average review and review rating for the music, and the genre's and sub-genres it belongs to
 Fields:
 	ASIN - unique identifier for the product
