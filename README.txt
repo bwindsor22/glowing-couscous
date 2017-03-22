@@ -2,7 +2,7 @@
 
 Two datasets are included in this exercise: 
 ( Easier ) LastFM - Anonymized user listening habits from a 
-( Harder ) CDs - Reviews and track data from a public music sales site
+( Harder ) Amazon - Reviews and track data from Amazon music sales site
 
 ==== LastFM ===
 (Easy)  File: LastFM - Users Only
