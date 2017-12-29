@@ -1,12 +1,17 @@
 ﻿README.TXT
 
+Sample datasets for use with intro to data science course. Tools to play around with these:
+1 - Tableau Public: https://public.tableau.com/en-us/s/
+2 - Python Pandas: https://www.datacamp.com/community/blog/python-pandas-cheat-sheet 
+
+
 Two datasets are included in this exercise: 
 ( Easier ) LastFM - Anonymized user listening habits from a 
 ( Harder ) Amazon - Reviews and track data from Amazon music sales site
 
 ==== LastFM ===
-Source: https://snap.stanford.edu/data/amazon-meta.html
-    J. Leskovec, L. Adamic and B. Adamic. The Dynamics of Viral Marketing. ACM Transactions on the Web (ACM TWEB), 1(1), 2007.
+Source: http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html
+    Celma, O. Music Recommendation and Discovery in the Long Tail. Springer 2010.
 (Easy)  File: LastFM - Users Only
 Description: list of all users of the website
 Fields: 
