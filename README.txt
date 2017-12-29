@@ -6,7 +6,7 @@ Sample datasets for use with intro to data science course. Tools to play around 
 
 
 Two datasets are included in this exercise: 
-( Easier ) LastFM - Anonymized user listening habits from a 
+( Easier ) LastFM - Anonymized user listening habits from a music listening service
 ( Harder ) Amazon - Reviews and track data from Amazon music sales site
 
 ==== LastFM ===
