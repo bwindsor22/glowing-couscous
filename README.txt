@@ -1,5 +1,3 @@
-﻿README.TXT
-
 Sample datasets for use with intro to data science course. Tools to play around with these:
 1 - Tableau Public: https://public.tableau.com/en-us/s/
 2 - Python Pandas: https://www.datacamp.com/community/blog/python-pandas-cheat-sheet 
